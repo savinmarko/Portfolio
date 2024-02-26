@@ -1,0 +1,173 @@
+@media screen and (max-width:370px){
+  header nav ul{
+    flex-direction: column;
+    align-items: center;
+    float: none;  
+   }
+   header nav ul li{
+        font-size: 1.4em;
+        border-radius: 9px;
+        border-bottom:2px solid #896bff;
+
+   }
+   #main #okvirNaslovne #slikaNaslovne{
+    width:200px;
+    margin-left: 10%;
+   }
+   #main #okvirNaslovne #tekstNaslovnaOkvir #dugme{
+        width: 70%;
+        font-size: 0.7em;
+}
+#skilovi p{
+    display: none;
+}
+.okvirOmeni #MojTekst p,h2,span{
+    font-size: 1em;
+}
+.marginld{
+    margin: 0px 0px;
+}
+.box{
+    width: 100px;   
+    
+}
+.okvirOmeni{
+    width: 200px;
+}
+.skil{
+    height: 33px;
+    
+
+}
+.ikonicaskil{
+    color: black;
+    margin: 4px;
+    
+}
+#Kontakt div h2{
+    margin-top: 0px;
+}
+#Kontakt div p{
+    font-size: 0.8em;
+}
+#Kontakt div a{
+    font-size: 0.8em;
+}
+.okvirIkonice p{
+    font-size: 0.8em;
+}
+#Kontakt div input[type="submit"]{
+    font-size: 0.6em;
+    width: 21%;
+    margin-left: 39.5%;
+}
+}
+  @media screen and (max-width:738px){
+    nav ul li a{
+        font-size:0.8em;
+    }
+    #main #okvirNaslovne #tekstNaslovnaOkvir{
+        width: 100%;
+        margin-left:0px;
+        display: flex;
+        justify-content: center;
+    }
+    #Ntekst1{
+        text-align: center;
+        font-size: 0.7em;
+    }
+    #Ntekst2{
+        text-align: center;
+    }
+    #main #okvirNaslovne #tekstNaslovnaOkvir #dugme{
+        width: 30%;
+        padding: 1px;
+        margin:10px auto;
+    
+    }
+    #main #okvirNaslovne #slikaNaslovne{
+        width:100%;
+    }
+    #main #okvirNaslovne #slikaNaslovne img{
+        width:100%;
+        margin-left:0px;
+    }
+    .okvirOmeni{
+        flex-direction: column;
+        width: 60%;
+        margin: auto;
+        margin-top: 30px;
+    }
+    .okvirOmeni #MojTekst{
+        border-radius: 0% 0% 10% 10%;
+        text-align: center;
+        width: 100%;
+       height: auto;
+        
+    }
+    
+    #omeni .okvirOmeni #MojaSlika{
+        width: 100%;
+    }
+    #omeni .okvirOmeni #MojaSlika img{
+        border-radius: 20% 20% 0% 0%;
+    }
+    .about{
+        font-size: 1em;
+    }
+    .box{
+        margin-top: 20px;
+        width: 290px;   
+        
+    }
+    .projekat{
+        width: 100%;   
+    }
+
+}
+@media screen and (max-width:875px){
+    #main #okvirNaslovne #slikaNaslovne{
+        width:300px;
+        margin-left:0%;
+    }
+    
+    header nav{
+        width: 100%;
+    }
+    header nav ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: stretch;
+    }
+    header #logo{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin-left: 0px;
+    }
+    header #logo img{
+        width:50px;
+        
+    }
+    .okvirOmeni{
+        margin-top: 40px;
+    }
+    #uslugeboxovi{
+        margin: 50px auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: stretch;
+        width: 90%;
+    }
+    .box{
+        margin-top: 20px;
+        width: 290px;   
+        
+    }
+    .projekat{
+        width:100%;   
+        margin-top: 20px;
+    }
+}
